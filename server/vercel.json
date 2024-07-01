@@ -2,12 +2,9 @@
     "version":2,
     "builds":[
         {
-            "src":"src/index.js", "use": "@vercel/node",
-            "dest":"build/bundle.js",
-            "options":{
-                "target":"es5",
-                "externals":["react","react-dom"]
-            }
+            "src":"src/index.js", "use": "@vercel/node"
+           
+          
             
         }
     ],
