@@ -8,6 +8,10 @@
                 "target":"es5",
                 "externals":["react","react-dom"]
             }
+            
         }
+    ],
+    "routes": [
+        {"src":"/(.*)","dest":"/_next/server/index.js"}
     ]
 }
